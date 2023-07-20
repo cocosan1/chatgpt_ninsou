@@ -33,8 +33,6 @@ st.markdown('### chatgpt Q&A from Notion')
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 integration_token = st.secrets['NOTION_INTEGRATION_TOKEN']
-database_id = st.secrets['NOTION_DATABASE_ID']
-database_id_nondomain = st.secrets['NOTION_DATABASE_ID_NONDOMAIN']
 
 # #ログの設定
 # logging.basicConfig(stream=sys.stdout, level=logging.INFO)
